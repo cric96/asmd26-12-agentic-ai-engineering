@@ -140,14 +140,14 @@
         {
           set std.align(horizon + left)
           set text(fill: self.colors.neutral-darkest)
-          text(size: 2.5em, weight: "bold", fill: self.colors.primary, info.title)
+          text(size: 1.5em, weight: "bold", fill: self.colors.primary, info.title)
           if info.subtitle != none {
             v(0.2em)
             text(size: 1.5em, fill: self.colors.neutral-dark, info.subtitle)
           }
-          v(1em)
+          v(0em)
           line(length: 100%, stroke: .05em + self.colors.primary)
-          v(1em)
+          v(0em)
           set text(size: 1em)
           if info.author != none {
             block(spacing: 1em, text(weight: "medium", size: 1.2em, info.author))

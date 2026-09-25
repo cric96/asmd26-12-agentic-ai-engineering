@@ -1,7 +1,7 @@
 #import "@preview/touying:0.8.0": *
 #import "themes/theme.typ": *
 #import "@preview/fontawesome:0.6.2": *
-#import "@preview/ctheorems:1.1.3": *
+#import "@preview/ctheorems:2.0.0": *
 #import "@preview/numbly:0.1.0": numbly
 #import "utils.typ": *
 
